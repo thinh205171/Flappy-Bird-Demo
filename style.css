@@ -1,0 +1,62 @@
+#scene
+{
+  background: url("https://i.ibb.co/r5g3HrQ/9g6CM.png");
+  width: 600px;
+  height: 550px;
+  position: relative;
+}
+
+#bird
+{
+  background: url('https://www.buzztouch.com/files/plugins/ML_Flappybird/icon.png');
+  width: 50px;
+  height: 55px;
+  position: absolute;
+}
+
+/*.cloud
+{
+  background: url('https://i.ibb.co/j3PD5RM/pixel-cloud-png-8.png');
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  
+}*/
+
+.toText
+{
+  width: 20px;
+  text-align: center;
+}
+
+
+.pile
+{
+  background: url('https://i.ibb.co/B48k5LM/pipepng.png');
+  width: 100px;
+  position: absolute;
+}
+
+
+#Lost
+{
+  background: white;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  top: 200px;
+  left: 210px;
+  border: 5px dashed #ba1717;
+  width: 170px;
+  color: #ec9418;
+  display: none;
+}
+
+#MakeOpacity
+{
+  background: white;
+  width: 600px;
+  height: 550px;
+  position: absolute;
+  opacity: 0;
+}

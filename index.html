@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="style.css">
+  <title>Flappy Bird</title>
+</head>
+<body>
+<div id="scene" onclick = up()>
+  <div id="bird"></div>
+  <div id="cloud0" class="cloud"></div>
+  <div id="cloud1" class="cloud"></div>
+  <div id="cloud2" class="cloud"></div>
+  <div id="cloud3" class="cloud"></div>
+  <div id="cloud4" class="cloud"></div>
+  <div id="cloud5" class="cloud"></div>
+  <div id="cloud6" class="cloud"></div>
+  <div id="pile0" class ="pile"></div>
+  <div id="pile1" class ="pile"></div>
+  <div id="pile2" class ="pile"></div>
+  <div id="pile3" class ="pile"></div>
+  <div id="MakeOpacity"></div>
+  <div id="Lost"> </div>
+</div>
+  <input type="text" value = 60 id = "Setup" class = "toText"> 
+  <input type="button" id="up" value="Up" onclick = up()>
+  <input type="text" value = 5 id = "Setdown" class = "toText"> 
+  <input type="button" id="down" value="Down" onclick = down()>
+  <input type="text" value = 10 id = "Setleft" class = "toText" > 
+  <input type="button" id="left" value = "LEFT" onclick = left()>
+  <input type="button" id="run" value = "RUN" onclick = run()>
+  <input type="button" id="pause" value = "PAUSE" onclick = stop()>
+  <input type="button" id="reset" value = "RESET" onclick = reset()>
+  <p id="result"> </p>
+  <script src="main.js"></script>
+</body>
+</html>
